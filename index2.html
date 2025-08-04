@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        let finalScore = 0;
+
+        // 1
+        let queOne = prompt("A for \na. bat \nb. apple").toLowerCase(); 
+
+        if(queOne == "b" || queOne == "apple"){
+            alert("You Got 1 mark");
+            finalScore += 1;
+        }
+
+        else{
+            alert("Wrong Ans You Got -0.5 Marks")
+            finalScore -= .5;
+        }
+
+        alert("You Got " + " " +finalScore + " Mark");
+
+        // 2
+
+        let quetwo = prompt("B for \na. bat \nb. apple").toLowerCase();
+
+        if(quetwo == "a" || quetwo == "bat"){
+            alert("You Got 1 mark");
+            finalScore += 2;
+        }
+
+        else{
+            alert("wrong Ans You Got -0.5 marks")
+            finalScore -= .5;
+        }
+
+        alert("You Got " + " " +finalScore + " mark");
+
+          // 2
+
+          let quethree = prompt("B for \na. bat \nb. apple").toLowerCase();
+
+         if(quetwo == "a" || quethree == "bat"){
+            alert("You Got 1 mark");
+            finalScore += 2;
+}
+
+   else{
+    alert("wrong Ans You Got -0.5 marks")
+    finalScore -= .5;
+}
+
+alert("You Got " + " " +finalScore + " mark");
+
+    </script>
+
+    
+    
+    
+
+
+   <div style="border: 3px solid red; height: 500px; display: flex; align-items: center; justify-content: center;" class="card-1">
+    <div style="width: 50%; height: 400px; border: 3px solid blue;" class="card-2">
+        <h1></h1>
+    </div>
+   </div>
+    
+</body>
+</html>
